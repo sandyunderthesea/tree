@@ -1,0 +1,60 @@
+body{
+    font-family: "Sourse Sans Pro" , sans-serif;
+    margin: 0;
+}
+
+.header h1 {
+    font-family: "Fredericka the Great" , sans-serif;
+    font-size: 1.7rem;
+    background-color: #7aaac1;
+    color: #fe9f3d;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    padding:20px;
+    margin: 0;
+}
+
+.intro {
+    background-color: #e1f5fe;
+    padding: 135px 20px;
+    color: #29434e;
+    display: flex;
+    font-size: .6rem;
+    font-weight: normal;
+}
+
+.intro-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-column-gap: 100px;
+    display: flex;
+} 
+
+.links {
+    background-color: #e1f5fe;
+    padding: 25px;
+    color: #29434e;
+    font-weight: bold;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.links-inner {
+    list-style: none;
+}
+
+.links-in {
+    padding: 45px 660px;
+    list-style: none;
+}
+
+.links-inner a {
+    color: #29434e;
+    text-decoration: none;
+    list-style: none;
+}
+
+.links-inner a:hover {
+    color: #7aaac1;
+}
